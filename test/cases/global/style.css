@@ -1,0 +1,29 @@
+.link {
+  transition: .25s linear;
+  color: dimgray;
+}
+
+&:hover {
+  color: indianred;
+}
+
+&:hover span {
+  opacity: 1;
+}
+
+&:visited {
+  color: slateblue;
+}
+
+.link span {
+  opacity: .7;
+}
+
+img {
+  transition: .25s linear;
+  box-shadow: 0 2px 3px -1px transparent;
+}
+
+&:hover {
+  box-shadow: 0 2px 3px -1px dimgray;
+}
