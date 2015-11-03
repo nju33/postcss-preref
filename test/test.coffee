@@ -14,8 +14,8 @@ set = (dir) ->
   style: fs.readFileSync stylePath, 'utf-8'
   answer: fs.readFileSync answerPath, 'utf-8'
 
-describe 'postcss-cson-cssvars', ->
-  it 'expect concat chain token', ->
+describe 'postcss-preref', ->
+  it 'expect replace global', ->
     {style, answer} = set 'global'
 
     result = postcss([preref]).process(style)
