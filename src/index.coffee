@@ -2,7 +2,7 @@ fs            = require 'fs'
 path          = require 'path'
 postcss       = require 'postcss'
 
-namespace = postcss.plugin 'postcss-namespace', (opts) ->
+preref = postcss.plugin 'postcss-preref', (opts) ->
   if not opts?
     opts = {token: '-'}
 
