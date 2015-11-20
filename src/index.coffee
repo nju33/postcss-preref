@@ -18,4 +18,4 @@ preref = postcss.plugin 'postcss-preref', (opts) ->
       else
         ref = rule.selector
 
-module.exports = namespace
+module.exports = preref
