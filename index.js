@@ -18,8 +18,15 @@
       var ref;
       ref = null;
       return css.walkRules(function(rule) {
+        var i, len, ref1, result, selector;
         if (/^&/.test(rule.selector)) {
-          return rule.selector = rule.selector.replace(/&/, ref);
+          result = [];
+          ref1 = ref.split(/,/);
+          for (i = 0, len = ref1.length; i < len; i++) {
+            selector = ref1[i];
+            result.push(rule.selector.replace(/&/, selector));
+          }
+          return rule.selector = result.join(",");
         } else {
           return ref = rule.selector;
         }

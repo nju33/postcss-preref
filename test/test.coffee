@@ -20,3 +20,9 @@ describe 'postcss-preref', ->
 
     result = postcss([preref]).process(style)
     expect(result.css).to.equal(answer)
+
+  it 'expect replace multi selector', ->
+    {style, answer} = set 'multi-selector'
+
+    result = postcss([preref]).process(style)
+    expect(result.css).to.equal(answer)
