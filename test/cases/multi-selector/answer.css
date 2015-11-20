@@ -1,0 +1,24 @@
+input, select, textarea {
+  border-color: #fff;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: #f00;
+}
+
+input,
+select,
+textarea {
+  border-color: #fff;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #f00;
+}
+
+input, select, textarea {
+  border-color: #fff;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: #f00;
+}

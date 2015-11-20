@@ -11,7 +11,10 @@ namespace = postcss.plugin 'postcss-namespace', (opts) ->
 
     css.walkRules (rule) ->
       if /^&/.test rule.selector
-        rule.selector = rule.selector.replace /&/, ref
+        result = []
+        for selector in ref.split /,/
+          result.push rule.selector.replace /&/, selector
+        rule.selector = result.join ","
       else
         ref = rule.selector
 
