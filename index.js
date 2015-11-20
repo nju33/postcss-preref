@@ -34,6 +34,6 @@
     };
   });
 
-  module.exports = namespace;
+  module.exports = preref;
 
 }).call(this);
