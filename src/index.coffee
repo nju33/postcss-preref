@@ -1,6 +1,5 @@
 fs            = require 'fs'
 path          = require 'path'
-CSON          = require 'cson'
 postcss       = require 'postcss'
 
 namespace = postcss.plugin 'postcss-namespace', (opts) ->
