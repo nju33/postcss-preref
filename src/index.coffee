@@ -1,5 +1,3 @@
-fs            = require 'fs'
-path          = require 'path'
 postcss       = require 'postcss'
 
 preref = postcss.plugin 'postcss-preref', (opts) ->
