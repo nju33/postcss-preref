@@ -3,9 +3,9 @@ language: node_js
 node_js:
   - "stable"
   - "4.2"
-before_script:
-  - npm install -g gulp
-  - npm install
 script:
   - npm run build
   - npm test
+after_script:
+  - ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --compilers coffee:coffee-script/register -R spec test/*
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coveragen

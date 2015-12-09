@@ -16,6 +16,8 @@
   "devDependencies": {
     "chai": "^3.4.0",
     "coffee-script": "^1.10.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.1",
     "mocha": "^2.3.3"
   },
   "homepage": "https://github.com/totora0155/postcss-preref#readme",
@@ -32,7 +34,7 @@
   },
   "scripts": {
     "build": "coffee -o ./ -c src/index.coffee",
-    "test": " mocha --compilers \"--compilers coffee:coffee-script/register\"  test/*",
+    "test": "mocha --compilers \"--compilers coffee:coffee-script/register\"  test/*",
     "watch": "coffee -w -o ./ -c src/index.coffee"
   }
 }
