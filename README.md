@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/postcss-preref.svg)](https://badge.fury.io/js/postcss-preref)
 [![Build Status](https://travis-ci.org/totora0155/postcss-preref.svg)](https://travis-ci.org/totora0155/postcss-preref)
 [![Code Climate](https://codeclimate.com/github/totora0155/postcss-preref/badges/gpa.svg)](https://codeclimate.com/github/totora0155/postcss-preref)
-[![Coverage Status](https://coveralls.io/repos/totora0155/postcss-preref/badge.svg?branch=&service=github)](https://coveralls.io/github/totora0155/postcss-preref?branch=)
+[![Coverage Status](https://coveralls.io/repos/totora0155/postcss-preref/badge.svg?branch=master&service=github)](https://coveralls.io/github/totora0155/postcss-preref?branch=master)
 
 [PostCSS](https://github.com/postcss/postcss) plugin that to refer previous selector by &
 
