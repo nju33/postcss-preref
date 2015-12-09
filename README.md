@@ -1,6 +1,10 @@
 # postcss-preref
 
+[![npm version](https://badge.fury.io/js/postcss-preref.svg)](https://badge.fury.io/js/postcss-preref)
+[![Build Status](https://travis-ci.org/totora0155/postcss-preref.svg)](https://travis-ci.org/totora0155/postcss-preref)
+
 [PostCSS](https://github.com/postcss/postcss) plugin that to refer previous selector by &
+
 ## Install
 
 ```
