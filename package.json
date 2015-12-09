@@ -35,7 +35,6 @@
   "scripts": {
     "build": "coffee -o ./ -c src/index.coffee",
     "test": "mocha --compilers \"--compilers coffee:coffee-script/register\"  test/*",
-    "posttest": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --compilers coffee:coffee-script/register -R spec test/*",
     "watch": "coffee -w -o ./ -c src/index.coffee"
   }
 }
