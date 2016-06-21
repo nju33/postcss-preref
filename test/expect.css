@@ -1,0 +1,14 @@
+.link {}
+.link:hover {}
+.link:hover span {}
+.link:visited {}
+
+.link span {}
+
+img {}
+img:hover {}
+
+.selector-1 .child,
+.selector-2 .child {}
+.selector-1 .child:hover,
+.selector-2 .child:hover {}
