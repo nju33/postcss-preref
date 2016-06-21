@@ -1,6 +1,6 @@
 {
-  "name": "postcss-namespace",
-  "description": "PostCSS plugin that prefix a namespace to a selector",
+  "name": "postcss-preref",
+  "description": "PostCSS plugin that to refer previous selector by &",
   "version": "1.0.0",
   "author": {
     "name": "nju33",
@@ -8,7 +8,7 @@
     "url": "http://nju33.work/"
   },
   "bugs": {
-    "url": "https://github.com/totora0155/postcss-namespace/issues"
+    "url": "https://github.com/totora0155/postcss-preref/issues"
   },
   "dependencies": {
     "lodash": "^4.13.1",
@@ -38,7 +38,7 @@
     "gulp-rename": "^1.2.2",
     "xo": "^0.16.0"
   },
-  "homepage": "https://github.com/totora0155/postcss-namespace#readme",
+  "homepage": "https://github.com/totora0155/postcss-preref#readme",
   "keywords": [
     "css",
     "postcss",
@@ -48,7 +48,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:totora0155/postcss-namespace.git"
+    "url": "git@github.com:totora0155/postcss-preref.git"
   },
   "scripts": {
     "prepublish": "npm run build",
