@@ -18,10 +18,11 @@ Add a new rule to css.
 This is possible to write so as `&:hover`. instead of previous selector.
 (e.g. input.css)
 ```css
-.link {}
+.item {}
 &:hover {}
 &:hover span {}
 &:visited {}
+& + & {}
 
 .link span {}
 
@@ -31,6 +32,7 @@ img {}
 .selector-1 .child,
 .selector-2 .child {}
 &:hover {}
+
 
 ```
 
@@ -52,10 +54,11 @@ postcss([preref])
 output like this
 
 ```css
-.link {}
-.link:hover {}
-.link:hover span {}
-.link:visited {}
+.item {}
+.item:hover {}
+.item:hover span {}
+.item:visited {}
+.item + .item {}
 
 .link span {}
 
@@ -73,4 +76,5 @@ img:hover {}
 
 |version|log|
 |:-:|:--|
+|1.0.1|Fix `& + &`|
 |1.0.0|Rewrite with es2015|

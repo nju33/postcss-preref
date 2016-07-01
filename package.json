@@ -1,7 +1,7 @@
 {
   "name": "postcss-preref",
   "description": "PostCSS plugin that to refer previous selector by &",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "nju33",
     "email": "sski0155+npm@gmail.com",

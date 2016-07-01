@@ -1,7 +1,8 @@
-.link {}
-.link:hover {}
-.link:hover span {}
-.link:visited {}
+.item {}
+.item:hover {}
+.item:hover span {}
+.item:visited {}
+.item + .item {}
 
 .link span {}
 

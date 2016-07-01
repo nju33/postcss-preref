@@ -1,7 +1,8 @@
-.link {}
+.item {}
 &:hover {}
 &:hover span {}
 &:visited {}
+& + & {}
 
 .link span {}
 
