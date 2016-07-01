@@ -2,9 +2,6 @@
 .item:hover {}
 .item:hover span {}
 .item:visited {}
-.item + .item {}
-
-.link span {}
 
 img {}
 img:hover {}

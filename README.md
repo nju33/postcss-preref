@@ -22,9 +22,6 @@ This is possible to write so as `&:hover`. instead of previous selector.
 &:hover {}
 &:hover span {}
 &:visited {}
-& + & {}
-
-.link span {}
 
 img {}
 &:hover {}
@@ -32,7 +29,6 @@ img {}
 .selector-1 .child,
 .selector-2 .child {}
 &:hover {}
-
 
 ```
 
@@ -58,9 +54,6 @@ output like this
 .item:hover {}
 .item:hover span {}
 .item:visited {}
-.item + .item {}
-
-.link span {}
 
 img {}
 img:hover {}
@@ -69,7 +62,6 @@ img:hover {}
 .selector-2 .child {}
 .selector-1 .child:hover,
 .selector-2 .child:hover {}
-
 ```
 
 ## Change log
