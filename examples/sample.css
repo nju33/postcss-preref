@@ -2,6 +2,7 @@
 &:hover {}
 &:hover span {}
 &:visited {}
+& + & {}
 
 img {}
 &:hover {}

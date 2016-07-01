@@ -22,6 +22,7 @@ This is possible to write so as `&:hover`. instead of previous selector.
 &:hover {}
 &:hover span {}
 &:visited {}
+& + & {}
 
 img {}
 &:hover {}
@@ -54,6 +55,7 @@ output like this
 .item:hover {}
 .item:hover span {}
 .item:visited {}
+.item + .item {}
 
 img {}
 img:hover {}
